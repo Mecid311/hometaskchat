@@ -1,0 +1,158 @@
+*{
+    margin: auto;
+    padding: 0;
+    height: auto;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+div{
+    background-color: rgb(240, 120, 120);
+}
+.container{
+    width: 100%;
+    
+}
+.inner{
+border: 2px solid black;
+background-color: darkgreen;
+color: white;
+
+}
+.menu{
+background-color: darkgreen;
+    float: right;
+    
+}
+.image{
+    width: 11%;
+    height: 33px;
+    border-radius: 16px;
+  
+    
+}
+.user{
+    /* float: left; */
+    background-color:teal;
+    font-style: italic;
+    font-size: 14px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: left;
+    list-style: none;
+    background-color: none;
+    margin-bottom: 5px;
+  /* display: block; */
+}
+.user1{
+    /* float: right; */
+    background-color: palegreen;
+    font-style: italic;
+    font-size: 14px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: right;
+    list-style: none;
+    background-color: none;
+    margin-bottom: 5px;
+    
+
+}
+
+
+.inner1{
+    border: 2px solid black;
+    height: 450px;
+    /* background-color: white; */
+    overflow-y: auto;
+    overflow-x:hidden ;
+    
+    
+    background-image: url(/img/dog.jpg);
+    }
+    .inner1 ul{
+        list-style: none;
+        
+    }
+    #messages{
+        /* border: 1px solid grey; */
+        width: 95%;
+        border-radius: 5px;
+        text-align: left;
+        font-size: 18px;
+        margin: 0 10px 0 10;
+        height: auto;
+       
+    
+    }
+   
+   
+
+    #textbox{
+        background-color: bisque;
+        /* margin: 0 0 0 95px; */
+        border-radius: 12px;
+        width: 245px;
+        
+    }
+
+    .inner2{
+/* margin: 0 0 0 1000px; */
+border: 2px solid black;
+background-color: darkgreen;
+color: white;
+
+
+
+    }
+    .image1{
+        width: 11%;
+        height: 33px;
+        border-radius: 16px;
+      
+    }
+    .inner3{
+        border: 2px solid black;
+        background: url(/img/205330_0DG_IS-450x600.jpg);
+        /* background-color: white; */
+        height: 450px;
+        overflow-y: hidden;
+        overflow: auto;
+    }
+    .inner3 ul{
+        list-style: none;
+        
+    }
+    #textbox1{
+        background-color: bisque;
+        /* margin: 0 0 0 107px; */
+        border-radius: 12px;
+        width: 245px;
+        
+    }
+    #messages1{
+        /* border: 1px solid grey; */
+        width: 95%;
+        border-radius: 5px;
+        text-align: right;
+        font-size: 18px;
+        margin: 0 10px 0 10;
+        
+    }
+  
+    
+    .inner4{
+        border: 2px solid black;
+        width: 349px;
+        margin:0 0 0 -127px;
+        height: 34px;
+        
+    }
+    .fas{
+        cursor: pointer;
+        margin: 3px 2px 0 5px;
+    }
+    .far{
+        cursor: pointer;
+    }
+    
